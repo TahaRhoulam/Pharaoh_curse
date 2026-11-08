@@ -11,3 +11,4 @@ Release/
 *.ipch
 *.pch
 *.log
+*.suo
