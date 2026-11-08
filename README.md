@@ -1,4 +1,4 @@
-# cpp-3D-graphics-renderer
+# pharaohs-curse
 A 3D video project
 Tech Stack: C++ .
 
