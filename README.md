@@ -24,13 +24,17 @@ The animation plays out in 13 timed phases, driven by a scripted drone-style cam
 
 ## Screenshots
 
-| Theft | Mummy rises |
+| The theft | The Pharaoh awakens |
 |:---:|:---:|
-| ![Theft](docs/screenshots/01-treasure-theft.png) | ![Mummy rises](docs/screenshots/02-mummy-rises.png) |
+| ![Theft](docs/screenshots/01-treasure-theft.png) | ![Pharaoh awakens](docs/screenshots/05-pharaoh-awakens.png) |
 
-| Chase | Pyramid entrance |
+| The Mummy Warrior rises | The chase |
 |:---:|:---:|
-| ![Chase](docs/screenshots/03-chase.png) | ![Entrance](docs/screenshots/04-pyramid-entrance.png) |
+| ![Mummy rises](docs/screenshots/02-mummy-rises.png) | ![Chase](docs/screenshots/03-chase.png) |
+
+| Into the pyramid | The cursed necropolis at night |
+|:---:|:---:|
+| ![Entrance](docs/screenshots/04-pyramid-entrance.png) | ![Night](docs/screenshots/06-necropolis-night.png) |
 
 ## Technical Highlights
 
@@ -84,13 +88,14 @@ resources/         Textures, skybox images, sweep/extrusion profiles, audio
 
 ## Controls
 
-The program starts paused. Press **`A`** to start the animation.
+The animation starts automatically when the program launches and runs for about 78 seconds.
 
 | Key | Action |
 |-----|--------|
-| `A` | Start / restart the animation |
+| `A` | Restart the animation from the beginning |
 | `P` | Pause / resume |
 | `F` | Toggle fullscreen |
+| `Shift + F` | Unlimit / limit the frame rate |
 | `Q` / `Esc` | Quit |
 
 Debug keys inherited from the base framework: `w` wireframe, `t` text overlay, `g` grid, `c` print camera state, `i` / `o` move the camera in or out when paused.
@@ -107,7 +112,7 @@ Debug keys inherited from the base framework: `w` wireframe, `t` text overlay, `
 1. Clone the repository.
 2. Place the GLEW, SOIL and irrKlang `.lib` files in `support/` and the DLLs next to the built executable.
 3. Open `assig2.sln` in Visual Studio and select **Release | Win32**.
-4. Build and run, then press **`A`** in the window to start.
+4. Build and run. The animation plays automatically.
 
 ## Credits
 
